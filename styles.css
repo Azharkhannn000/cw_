@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 700px 600px;
+    grid-template-rows: 300px 340px;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 35px;
+}
+.text{
+    color: hsl(300, 43%, 22%);
+    font-size: 20px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.stars{
+    display: grid;
+    grid-template-rows: 70px 70px 90px;
+    gap: 0.5rem;
+    color: hsl(300, 43%, 22%);
+}
+.star1{
+    background-color: hsl(335, 76%, 93%);
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    position: relative;
+}
+.star1 p{
+    position: relative;
+    left: 120px;
+    bottom: 18px;
+}
+.star2{
+    background-color: hsl(335, 76%, 93%);
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    margin-left: 30px;
+}
+.star2 p{
+    position: relative;
+    left: 120px;
+    bottom: 18px;
+}
+.star3{
+    background-color: hsl(335, 76%, 93%);
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    margin-left: 60px;
+}
+.star3 p{
+    position: relative;
+    left: 120px;
+    bottom: 18px;
+}
+.first{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    width: 1000px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.first img{
+    border-radius: 50px;
+    width: 50px;
+}
+.first h5{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.fi-text{
+    color: hsl(333, 80%, 67%);
+}
+.second{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    width: 1000px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.second img{
+    border-radius: 50px;
+    width: 50px;
+}
+.second h5{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.sec-text{
+    color: hsl(333, 80%, 67%);
+}
+.third{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    width: 1000px;
+    height: 250px;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.third img{
+    border-radius: 50px;
+    width: 50px;
+}
+.third h5{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.th-text{
+    color: hsl(333, 80%, 67%);
+}
